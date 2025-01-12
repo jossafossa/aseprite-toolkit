@@ -45,8 +45,6 @@ export class AsepriteExporter {
     this.#format = format;
     this.#scale = scale;
     this.#args = args;
-
-    this.init();
   }
 
   #insertVariables(format: string, variables: Record<string, string>) {

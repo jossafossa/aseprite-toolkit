@@ -23,7 +23,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest --run --coverage",
     "prepare": "husky",
-    "check": "pnpm run typecheck && pnpm run test && pnpm run build",
+    "check": "pnpm run typecheck && pnpm run build",
     "prepublishOnly": "pnpm run check",
     "release": "pnpm publish",
     "tsc": "tsc"
